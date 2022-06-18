@@ -19,6 +19,10 @@ import com.reactnativecommunity.viewpager.RNCViewPagerPackage;
 import com.dooboolab.kakaologins.RNKakaoLoginsPackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.RNGestureHandlerPackage;
+// react-native-nmap
+import com.github.quadflask.react.navermap.RNNaverMapPackage;
+// react-native-pager-view
+import com.reactnativepagerview.PagerViewPackage;
 // react-native-reanimated
 import com.swmansion.reanimated.ReanimatedPackage;
 // react-native-safe-area-context
@@ -78,6 +82,8 @@ public class PackageList {
       new RNCViewPagerPackage(),
       new RNKakaoLoginsPackage(),
       new RNGestureHandlerPackage(),
+      new RNNaverMapPackage(),
+      new PagerViewPackage(),
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),
       new RNScreensPackage(),

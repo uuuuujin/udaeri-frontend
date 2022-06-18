@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { SafeAreaView, Text, TextInput, View } from "react-native";
-import { ScrollView, TouchableOpacity } from "react-native-gesture-handler";
+import { View, TouchableOpacity } from "react-native";
 import { SvgXml } from "react-native-svg";
 import axios from "axios";
 import theme from "../../style/theme";

@@ -1,5 +1,4 @@
 import styled, { css } from "styled-components/native";
-import { SafeAreaView, Text, TextInput, View } from "react-native";
 import theme from "../../style/theme";
 
 export const SearchInputTextContainer = styled.View`
